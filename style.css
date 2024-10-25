@@ -1,0 +1,151 @@
+*{
+    font-family:'Segoe UI', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+header {
+    text-align: center;
+    font-size:2rem;
+    margin-top: 100px;
+   
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.logo {
+    top: 18px;
+    left: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50%;
+    float: left;
+    color:#007bff;
+    text-shadow: 0 0 15px #007bff;
+
+}
+nav{
+    width: 50%;
+    float: right;
+}
+span {
+    font-weight: 30%;
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+nav ul a{
+   align-content: right;
+   font-size: 15px;
+   margin-left: 20px;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #007bff;
+    
+}
+
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.home{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.home p{
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 18px;
+}
+.profile {
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.profile h3 {
+    margin-top: 10px;
+    
+}
+.contact {
+    margin-top: 100px;
+    text-align: center;
+}
+#contact h2 {
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+}
+form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#form-status {
+    margin-top: 20px;
+    color: green;
+}
